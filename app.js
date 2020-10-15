@@ -32,7 +32,7 @@ arrow.addEventListener('click', () => {
 //Menu
 const menuIcon = document.querySelector('.menuIcon'),
   menuCont = document.querySelector('.menuCont'),
-  menuItems = document.querySelectorAll('a')
+  menuItems = document.querySelectorAll('.menuCont a')
 let menuflag = true
 
 menuIcon.addEventListener('click', () => {
